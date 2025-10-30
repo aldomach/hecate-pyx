@@ -118,7 +118,7 @@ def connect_to_sql(
         conn = connect_to_sql('MyServer', totp_code='123456')
         
         # With API Key
-        conn = connect_to_sql('MyServer', api_key='hectepyx_...')
+        conn = connect_to_sql('MyServer', api_key='hecate_...')
     """
     storage = CredentialsStorage(CREDENTIALS_FILE)
     connector = DatabaseConnector()

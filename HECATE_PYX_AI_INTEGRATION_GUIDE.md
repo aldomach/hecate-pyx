@@ -66,7 +66,7 @@ totp_code = '123456'
 conn = connector.connect(server_config, master_password, totp_code=totp_code)
 
 # Connect with API Key for automation
-api_key = 'hectepyx_...'
+api_key = 'hecate_...'
 conn = connector.connect(server_config, master_password, api_key=api_key)
 
 ## CONNECTION POOLING FOR PERFORMANCE
@@ -111,7 +111,7 @@ has_2fa = totp_manager.is_enabled('ServerName', master_password)
 ## API KEY MANAGEMENT FOR AUTOMATION
 # Create API key for script automation
 key_info = api_manager.create_key('AutomationKey', 'ServerName', master_password, expires_days=90)
-api_key = key_info['api_key']  # Format: hectepyx_...
+api_key = key_info['api_key']  # Format: hecate_...
 
 # List API keys
 keys = api_manager.list_keys(master_password, 'ServerName')

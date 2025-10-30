@@ -63,7 +63,7 @@ He transformado completamente el sistema de "Gestor Seguro de Credenciales SQL S
 - `REPOSITORY_URL = "https://github.com/aldomach/hecate-pyx"`
 - `DOCUMENTATION_URL = "https://aldo.net.ar/hecate-pyx"`
 - `TOTP_ISSUER = "Hécate Pyx"`
-- `API_KEY_PREFIX = "hectepyx_"`
+- `API_KEY_PREFIX = "hecate_"`
 
 ---
 

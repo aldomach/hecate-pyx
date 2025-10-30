@@ -26,7 +26,7 @@ TOTP_DIGITS = 6
 TOTP_INTERVAL = 30
 
 # Configuraciones de API Keys
-API_KEY_PREFIX = "hectepyx_"
+API_KEY_PREFIX = "hecate_"
 API_KEY_LENGTH = 32
 DEFAULT_API_KEY_EXPIRY_DAYS = 90
 

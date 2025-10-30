@@ -319,14 +319,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 🏛️ Hecate Pyx - CLI Examples:
-  hectepyx list                           # Listar servidores
-  hectepyx add MyServer                   # Agregar servidor  
-  hectepyx test MyServer                  # Probar conexión
-  hectepyx remove MyServer                # Eliminar servidor
-  hectepyx apikeys list                   # Listar API keys
-  hectepyx apikeys create MyKey MyServer  # Crear API key
-  hectepyx 2fa setup MyServer             # Configurar 2FA
-  hectepyx query MyServer "SELECT 1"      # Ejecutar query
+  hecate list                           # Listar servidores
+  hecate add MyServer                   # Agregar servidor  
+  hecate test MyServer                  # Probar conexión
+  hecate remove MyServer                # Eliminar servidor
+  hecate apikeys list                   # Listar API keys
+  hecate apikeys create MyKey MyServer  # Crear API key
+  hecate 2fa setup MyServer             # Configurar 2FA
+  hecate query MyServer "SELECT 1"      # Ejecutar query
 
 🌐 Sitio: aldo.net.ar/hecate-pyx
 📂 GitHub: github.com/aldomach/hecate-pyx
