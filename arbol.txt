@@ -1,0 +1,87 @@
+hecatepyx/
+│
+├── hecate_pyx/
+│   ├── __pycache__/
+│   │   └── __init__.cpython-311.pyc
+│   ├── auth_providers/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── base_provider.cpython-311.pyc
+│   │   │   ├── base_provider.cpython-312.pyc
+│   │   │   ├── certificate_provider.cpython-311.pyc
+│   │   │   ├── jwt_provider.cpython-311.pyc
+│   │   │   ├── sql_provider.cpython-311.pyc
+│   │   │   ├── ssh_tunnel_provider.cpython-311.pyc
+│   │   │   └── windows_provider.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── base_provider.py
+│   │   ├── certificate_provider.py
+│   │   ├── jwt_provider.py
+│   │   ├── sql_provider.py
+│   │   ├── ssh_tunnel_provider.py
+│   │   └── windows_provider.py
+│   ├── backup/
+│   │   ├── __init__.py
+│   │   └── backup_manager.py
+│   ├── core/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── config.cpython-311.pyc
+│   │   │   ├── config.cpython-312.pyc
+│   │   │   ├── crypto.cpython-311.pyc
+│   │   │   ├── crypto.cpython-312.pyc
+│   │   │   ├── exceptions.cpython-311.pyc
+│   │   │   ├── exceptions.cpython-312.pyc
+│   │   │   ├── storage.cpython-311.pyc
+│   │   │   └── storage.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── crypto.py
+│   │   ├── exceptions.py
+│   │   └── storage.py
+│   ├── database/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── connector.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── connection_pool.py
+│   │   ├── connector.py
+│   │   └── retry_handler.py
+│   ├── gui/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── main_window.cpython-311.pyc
+│   │   ├── dialogs/
+│   │   │   ├── __init__.py
+│   │   │   ├── apikey_dialog.py
+│   │   │   ├── password_dialog.py
+│   │   │   ├── server_dialog.py
+│   │   │   └── totp_setup_dialog.py
+│   │   ├── __init__.py
+│   │   └── main_window.py
+│   ├── security/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── api_key_manager.cpython-311.pyc
+│   │   │   ├── audit_logger.cpython-311.pyc
+│   │   │   └── totp_manager.cpython-311.pyc
+│   │   ├── __init__.py
+│   │   ├── api_key_manager.py
+│   │   ├── audit_logger.py
+│   │   └── totp_manager.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── validators.py
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── requirements.txt
+│   └── requirements_basic.txt
+├── HECATE_PYX_AI_INTEGRATION_GUIDE.md
+├── HECATE_PYX_REBRANDING_COMPLETO.md
+├── README_HecatePyx.md
+├── hecate-pyx.py
+├── hecate_connector.py
+├── install_dependencies.py
+└── migrate_from_old.py

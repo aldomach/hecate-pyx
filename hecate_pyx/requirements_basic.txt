@@ -1,0 +1,6 @@
+# Requirements básicos (obligatorios para funcionamiento mínimo)
+pyodbc>=4.0.35
+cryptography>=41.0.0
+
+# Para instalar solo lo básico:
+# pip install -r requirements_basic.txt
