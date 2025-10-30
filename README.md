@@ -1,4 +1,4 @@
-# 🔮 Hecate Pyx - Secret Management System
+# 🔮 Hecate Pyx - credential Management System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -7,13 +7,13 @@
 
 ## Overview
 
-**Hecate Pyx** is a secret management system designed for Cybersecurity and Development Operations (SecOps/DevOps) architectures. Its primary function extends beyond passive storage to focus on secure creation, structured organization, and controlled access to sensitive credentials including API keys, tokens, passwords, and certificates.
+**Hecate Pyx** is a credential management system designed for Cybersecurity and Development Operations (SecOps/DevOps) architectures. Its primary function extends beyond passive storage to focus on secure creation, structured organization, and controlled access to sensitive credentials including API keys, tokens, passwords, and certificates.
 
 Unlike systems that generate ephemeral credentials, Hecate Pyx operates as a persistent local vault where connection configurations to servers are defined—currently supporting SQL Server—and credentials are stored using AES-256 encryption. The system supports multiple authentication methods including SQL, Windows, certificates, JWT, SSH tunnels, and TOTP.
 
 Any script or application running in the local environment can integrate with Hecate Pyx through its programmatic interface, accessing authorized credentials via master password, API key, or TOTP token. This enables process automation without exposing secrets directly in code or environment variables.
 
-In critical infrastructure environments, secret management involves more than security: it requires traceability, legal uniqueness, and regulatory compliance. The application of principles such as least privilege and identity-based access control (IAM) is fundamental to ensure that each access is properly authenticated, authorized, and logged.
+In critical infrastructure environments, credential management involves more than security: it requires traceability, legal uniqueness, and regulatory compliance. The application of principles such as least privilege and identity-based access control (IAM) is fundamental to ensure that each access is properly authenticated, authorized, and logged.
 
 ---
 
@@ -539,6 +539,6 @@ Special thanks to the cybersecurity and DevOps communities for their valuable fe
 
 ---
 
-**Hecate Pyx** - Secure Secret Management for the Modern Enterprise
+**Hecate Pyx** - Secure Credential Management for the Modern Enterprise
 
 *Version 3.0 | Last Updated: October 2024*
